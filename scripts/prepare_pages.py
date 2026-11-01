@@ -11,6 +11,7 @@ for p in out.rglob('*'):
         text = p.read_text()
         text = re.sub(r'(?<=[\s\"\x27(=])/(assets/|work(?=[/\"\x27?#\s])|about(?=[/\"\x27?#\s])|legal(?=[/\"\x27?#\s]))', lambda m: base + '/' + m[1], text)
         text = re.sub(r'(href=[\"\x27])/(?=[\"\x27?#])', lambda m: m[1] + base + '/', text)
+        text = text.replace('%2Fassets%2F', '%2Fmiranda-paper-portfolio%2Fassets%2F')
         p.write_text(text)
 (out / '.nojekyll').touch()
 print('GitHub Pages output ready')
