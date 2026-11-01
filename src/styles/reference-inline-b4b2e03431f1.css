@@ -1,0 +1,41 @@
+
+    .has-dropcap {
+        font-size: 2.15vw;
+        line-height: 2.4vw;
+        text-align: left;
+    }
+
+    .has-dropcap:first-letter {
+        font-family: "Canopee", sans-serif;
+        float: left;
+        font-size: 6.5vw;
+        line-height: 5vw;
+        margin: 0.1vw 0.7vw 0.2vw 0;
+        background-color: #1D1D1B;
+        color: #CDC6BE;
+        padding: 1.2vw .2vw .2vw .2vw;
+    }
+    
+    @media (max-width: 479px) {
+        .has-dropcap {
+            font-size: 6vw;
+            line-height: 7.2vw;
+            text-align: left;
+            letter-spacing: -0.02em;
+        }
+
+        .has-dropcap:first-letter {
+            font-family: "Canopee", sans-serif;
+            font-feature-settings: "ss03";
+            float: left;
+            font-size: 20vw;
+            line-height: 17vw;
+            margin: 1vw 2vw 1vw 0vw;
+            background-color: #1D1D1B;
+            color: #CDC6BE;
+            padding: 1.5vw .8vw .5vw 1vw;
+
+        }
+    }
+    
+

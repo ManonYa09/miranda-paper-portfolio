@@ -1,0 +1,8 @@
+.DS_Store
+.openai/*.tar.gz
+*.log
+__pycache__/
+reference/assets/
+reference/pages/
+
+pages-dist/

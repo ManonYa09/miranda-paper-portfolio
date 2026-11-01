@@ -1,0 +1,1 @@
+const slug=location.pathname.split('/').filter(Boolean);if(slug[0]==='work'&&slug[1])document.body.classList.add(slug[1]);

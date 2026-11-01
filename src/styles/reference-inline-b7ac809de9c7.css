@@ -1,0 +1,12 @@
+
+    .brand-year,
+    .new-w,
+    .n-new {
+        writing-mode: vertical-lr;
+    }
+    
+    @media(min-width: 992px) {
+    	.nav.default {
+    	display: none; 
+    	}
+    }

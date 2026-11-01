@@ -1,0 +1,36 @@
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.marquee--inner {
+  display: flex;
+  position: absolute;
+  /*animation: marquee 8s linear infinite;*/
+  animation-duration: 4s;
+  animation-name: bettermarquee;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { left: 0%; }
+  100% { left: -100%; }
+}
+
+@keyframes bettermarquee {
+  from {
+    transform: translate3d(0,0,0);
+  }
+
+  to {
+    transform: translate3d(-30%,0,0);
+  }
+}

@@ -1,0 +1,11 @@
+
+	.blend {
+  mix-blend-mode: luminosity;
+  	}
+    
+    /* Menu Nav Active */ 
+    .m-active.work,
+    .m-active.index, 
+    .m-active.about {
+        display: none !important;
+    }

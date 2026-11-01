@@ -1,0 +1,5 @@
+
+	.paper-background {
+  	mix-blend-mode: multiply; 
+    pointer-events: none; 
+  }

@@ -1,0 +1,24 @@
+
+.has-dropcap {
+	font-size: 4vh;
+  line-height: 5.1vh;
+  text-transform: none !important; 
+}
+
+.has-dropcap:first-letter {
+  font-family: "Canopee", sans-serif;
+  font-feature-settings: "ss03";
+  float: left;
+  font-size: 15vh;
+  line-height: 10.5vh;
+  margin: .5vh 1.5vh 1vh 0vh;
+  background-color: #1D1D1B;
+  color: #CDC6BE; 
+  padding: 2vh .6vh 1vh .6vh;
+}
+
+.drop-wrap,
+.drop-wrapper {
+	 max-width: 40rem;
+    white-space: initial;
+}

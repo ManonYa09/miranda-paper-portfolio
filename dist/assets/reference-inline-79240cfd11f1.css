@@ -1,0 +1,17 @@
+
+    .nav {
+        position: fixed;
+        display: none;
+    }
+    
+   .paper-background.work {
+   	display: block;
+   }
+   
+   .menu-face {
+   	background: #1d1d1b;
+   }
+   
+   .n-text {
+   	color: #1d1d1b;
+   }

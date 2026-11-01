@@ -1,0 +1,52 @@
+
+    .under {
+        text-underline-offset: 0.3vw;
+        text-decoration-thickness: .6vw;
+    }
+
+    .aw-desc,
+    .under {
+        text-decoration: underline;
+        text-underline-offset: .3vw;
+        text-decoration-thickness: .5px;
+        text-decoration-color: #0000007a;
+    }
+    
+    /* Menu Nav Active */ 
+
+    .m-active.index {
+        display: block;
+    }
+    
+    .m-active.work, 
+    .m-active.about {
+        display: none !important;
+    }
+
+    [data-gl-image] canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+    }
+
+    [data-gl-image] img {
+        display: block;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    html.no-scroll,
+    html.no-scroll body {
+        overflow: hidden;
+    }
+
+    html.no-scroll nav.nav {
+        transform: unset !important
+    }
+
+    #app>header [data-butter-slidable] {
+        transform: translateX(-62vw);
+    }

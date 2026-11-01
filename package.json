@@ -1,0 +1,12 @@
+{
+  "name": "miranda-paper-recreation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Faithful local recreation of the Miranda Paper Portfolio",
+  "scripts": {
+    "dev": "python3 scripts/serve.py",
+    "start": "python3 scripts/serve.py",
+    "build": "python3 scripts/build.py",
+    "check": "python3 scripts/check.py"
+  }
+}

@@ -1,0 +1,261 @@
+
+    .hover:active {
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .aw-desc,
+    .paa-span {
+        text-decoration: underline;
+        text-underline-offset: .3vw;
+        text-decoration-thickness: .5px;
+        text-decoration-color: #0000007a;
+    }
+
+    .n-text {
+        color: #CDC6BE;
+    }
+
+    .nav-img.dark {
+        display: none;
+    }
+
+    .nav-img.light {
+        display: block;
+    }
+
+    .menu-face {
+        background: #CDC6BE;
+    }
+
+    .paper-background.work {
+        display: none;
+    }
+    
+    /* Menu Nav Active */ 
+
+    .m-active.work {
+        display: block;
+    }
+    
+    .m-active.index, 
+    .m-active.about {
+        display: none !important;
+    }
+   
+
+      /* 100vh Fix – Mobile */
+      .case-intro {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+      }
+
+    
+    /* 100vh Fix – Mobile */
+    .case-intro,
+    .pr-info,
+    .cover {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    
+    a .text.awards {
+    	text-decoration: underline !important; 
+      text-decoration-thickness: 1px !important;
+      text-underline-offset: 1vw !important;
+    }
+    
+    /* Title Mask */
+      .pr-title__mask {
+        mask-image: url(/assets/ff1348fcf6-616eddf7a8747e3f045d61e8_titlemask.png);
+        -webkit-mask-image: url(/assets/ff1348fcf6-616eddf7a8747e3f045d61e8_titlemask.png);
+        mask-size: 100vw auto;
+        mask-position: 55% 10%;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100vw auto;
+        -webkit-mask-position: 55% 10%;
+        -webkit-mask-repeat: no-repeat;
+    }
+
+    @media screen and (min-width: 769px) {
+        .sal-parasuco .pr-title__wrap {
+            bottom: 19vh;
+            left: 2vh;
+        }
+
+        .sal-parasuco .pr-title__mask {
+            mask-position: 51.8% 8%;
+            -webkit-mask-position: 51.8% 9%;
+        }
+
+        .edoardo-smerilli .pr-title__wrap {
+            bottom: 16vh;
+        }
+
+        .edoardo-smerilli .pr-title__mask {
+            mask-position: 49% 14%;
+            -webkit-mask-position: 49% 14%;
+        }
+
+        .loftgarten .pr-title__wrap {
+            bottom: calc(60px + 15vh);
+            width: 52vw;
+        }
+
+        .loftgarten .pr-title__mask {
+            mask-position: 49% -14%;
+            -webkit-mask-position: 49% -14%;
+        }
+
+        .chiara-luzzana .pr-title__wrap {
+            width: 50vw;
+            bottom: 16.9vh;
+        }
+
+        .chiara-luzzana .pr-title__mask {
+            mask-position: 49% 16%;
+            -webkit-mask-position: 49% 16%;
+        }
+
+        .wannabe-toys .pr-title__mask {
+            mask-position: 47% 14%;
+            -webkit-mask-position: 47% 14%;
+        }
+
+        .deplace-maison .pr-title__mask {
+            bottom: 18vh;
+            width: 48vw;
+        }
+
+        .deplace-maison .pr-title__mask {
+            mask-position: 48% 19%;
+            -webkit-mask-position: 48% 19%;
+        }
+
+        .aquerone .pr-title__wrap {
+            bottom: 19vh;
+            left: 3vh;
+            width: 76vw;
+        }
+
+        .aquerone .pr-title__mask {
+            mask-size: 95vw auto;
+            -webkit-mask-size: 95vw auto;
+            mask-position: 55% 23%;
+            -webkit-mask-position: 55% 23%;
+        }
+
+        .cobo .pr-title__mask {
+            mask-position: 55% 32%;
+            -webkit-mask-position: 55% 32%;
+        }
+
+        .cobo .pr-title__wrap {
+            bottom: 19vh;
+        }
+
+        .avroko .pr-title__wrap {
+            bottom: 17vh;
+            
+            width: 69vw;
+        }
+
+        .avroko .pr-title__mask {
+            mask-position: 48% 25%;
+            -webkit-mask-position: 48% 25%;
+        }
+
+        .the-roger-hub .pr-title__wrap {
+            bottom: 15vh;
+            width: 85vw;
+        }
+
+        .the-roger-hub .pr-title__mask {
+            mask-position: 53% 35%;
+            -webkit-mask-position: 53% 35%;
+        }
+
+        .prada .pr-title__wrap {
+            bottom: 22vh;
+            width: 66vw;
+            left: 4vh;
+        }
+
+        .prada .pr-title__mask {
+            mask-position: 55% 9%;
+            -webkit-mask-position: 55% 9%;
+        }
+
+        .the-hiring-chain .pr-title__mask {
+            mask-position: 47% 22%;
+            -webkit-mask-position: 47% 22%;
+        }
+
+        .the-books-of-ye .pr-title__mask {
+            mask-position: 50% 25%;
+            -webkit-mask-position: 50% 25%;
+        }
+
+        .the-books-of-ye .pr-title__mask {
+            position: relative;
+            bottom: 3vh;
+            left: -6vh;
+            width: 70vw;
+        }
+
+        .om-swami .pr-title__mask {
+            mask-position: 50% 25%;
+            -webkit-mask-position: 50% 25%;
+        }
+
+        .om-swami .pr-title__mask {
+            position: relative;
+            bottom: 3vh;
+            left: -6vh;
+            width: 70vw;
+        }
+
+        .thinkers .pr-title__mask {
+            mask-position: 50% 25%;
+            -webkit-mask-position: 50% 25%;
+        }
+
+        .thinkers .pr-title__mask {
+            position: relative;
+            bottom: 3vh;
+            left: -6vh;
+            width: 70vw;
+        }
+
+        .argor-heraeus .pr-title__mask {
+            mask-position: 50% 25%;
+            -webkit-mask-position: 50% 25%;
+        }
+
+        .argor-heraeus .pr-title__mask {
+            position: relative;
+            bottom: 18vh;
+            width: 80vw;
+        }
+
+        .wow-concept .pr-title__mask {
+            mask-position: 50% 30%;
+            -webkit-mask-position: 50% 30%;
+        }
+
+        .wow-concept .pr-title__wrap {
+            position: relative;
+            bottom: 18vh;
+            width: 90vw;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .pr-title__mask {
+            mask-image: none;
+            -webkit-mask-image: none;
+        }
+    }
+    
+    

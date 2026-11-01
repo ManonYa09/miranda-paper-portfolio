@@ -1,0 +1,21 @@
+
+	 /* Menu Nav Active */ 
+
+    .m-active.about {
+        display: block;
+    }
+    
+    .m-active.index, 
+    .m-active.work {
+        display: none !important;
+    }
+    
+    .aw1-outer {
+    	display: block; 
+    }
+    
+    @media(max-width: 479px) {
+    	.sidebar {
+      	padding-left: 2vw;
+      }
+    }

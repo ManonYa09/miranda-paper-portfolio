@@ -1,0 +1,22 @@
+
+
+
+@media(max-width: 479px){
+	.has-dropcap {
+	font-size: 6vw;
+  line-height: 7vw;
+}
+
+.has-dropcap:first-letter {
+  font-family: "Canopee", sans-serif;
+  font-feature-settings: "ss03";
+  float: left;
+  font-size: 27vw;
+  line-height: 18vw;
+  margin: 0vw 2vw 0vw 0vh;
+  background-color: #1D1D1B;
+  color: #CDC6BE; 
+  padding: 5vw 2vw 2vw 2vw;
+}
+}
+
